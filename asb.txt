@@ -1,0 +1,7 @@
+mov r1, 0
+mov r2, 5
+loop:
+sub r2, 1
+cmp r2, r1
+jge loop
+mov r3, 1
